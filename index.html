@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="http://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="#" data-scroll="home">Home</a></li>
+      <li><a href="#" data-scroll="about-us">About us</a></li>
+      <li><a href="#" data-scroll="services">Services</a></li>
+      <li><a href="#" data-scroll="solutions">Solutions</a></li>
+      <li><a href="#" data-scroll="products">Products</a></li>
+      <li><a href="#" data-scroll="contact-us">Contact-Us</a></li>
+    </ul>
+    <div class="fixed-menu">
+      <h3>Change Colors</h3>
+      Testing Colors
+      <h3>Important Links</h3>
+      Testing Links
+    </div>
+    <div id="home" class="block">
+      <h2>Home</h2>
+      <span class="show-popup" data-popup=".first-popup">Show 1st Popup</span>
+      <span class="show-popup" data-popup=".second-popup">Show 2nd Popup</span>
+
+      <!-- start buttons with effects-->
+      <div class="buttons-effects">
+        <button class="buttons-effect from-left">
+          <span></span>
+          <span>Download</span>
+        </button>
+      </div>
+      <!-- end buttons with effects-->
+      <!-- start progress bar-->
+      <div class="animated-progress progress-blue">
+        <span data-progress="45%"></span>
+      </div>
+      <span class="perc"></span>
+      <div class="animated-progress progress-red">
+        <span data-progress="25%"></span>
+      </div>
+    </div>
+
+    <div id="about-us" class="block">
+      <h2>About Us</h2>
+    </div>
+    <div id="services" class="block">
+      <h2>Services</h2>
+    </div>
+    <div id="solutions" class="block">
+      <h2>Solutions</h2>
+    </div>
+    <div id="products" class="block">
+      <h2>Products</h2>
+    </div>
+
+    <div id="contact-us" class="block">
+      <h2>Contact-us</h2>
+    </div>
+    <!-- start popup-->
+    <div class="popup First-popup">
+      <div class="inner">
+        <h2>This is our 1st Popup</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          pariatur adipisci ullam assumenda officiis natus sapiente ducimus
+          aspernatur tenetur deleniti.
+        </p>
+        <button class="class">Close</button>
+      </div>
+    </div>
+    <div class="popup second-popup">
+      <div class="inner">
+        <h2>This is our 2nd Popup</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          pariatur adipisci ullam assumenda officiis natus sapiente ducimus
+          aspernatur tenetur deleniti.
+        </p>
+        <button class="class">Close</button>
+      </div>
+    </div>
+    <!-- end popup-->
+
+    <script src="index.js"></script>
+  </body>
+</html>
